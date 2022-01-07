@@ -10,6 +10,14 @@ namespace lab6
     {
         static void Main(string[] args)
         {
+            /*System.String s1 = "Привет!";
+            String ss = "";
+            string s1 = "Привет!";
+            StringBuilder s2 = new StringBuilder("Привет!");
+            string s = new String('A', 10);*/
+            string s = "Hello \n world!";
+            Console.WriteLine(s.Length);
+            Console.ReadKey();
         }
     }
 }
